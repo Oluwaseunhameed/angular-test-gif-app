@@ -24,15 +24,11 @@ export const SearchForm = (props) => {
             type="text"
             className="form-control"
             name="searchText"
-            data-testid="searchinput"
+            data-testid='searchinput'
             placeholder="Search gifs..."
             onChange={onChange}
           />
-          <button
-            data-testid="Search"
-            type="submit"
-            className="btn btn-primary btn-bg mt-3"
-          >
+          <button data-testid='Search' type="submit" className="btn btn-primary btn-bg mt-3">
             Search
           </button>
         </form>
